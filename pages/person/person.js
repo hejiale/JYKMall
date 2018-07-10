@@ -13,7 +13,7 @@ Page({
   },
   onShow: function() {
     var that = this;
-
+    
     if (!that.data.isLoad) {
       if(Login.ConfigData.wechatId == null){
         request.getCompanyInfo(function (data) {

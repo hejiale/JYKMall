@@ -5,6 +5,7 @@ App({
   },
   onShow: function () {
     this.globalData.isRequireLoad = true;
+    wx.clearStorage()
   },
   onHide: function () {
     console.log('hide');
@@ -32,6 +33,6 @@ App({
     //小程序id
     miniAppId: 'wxa1f8bf0da6acab35',
     //小程序名
-    miniAppName: '姜玉坤眼镜服务'
+    miniAppName: 'JYK眼镜服务'
   }  
 })
